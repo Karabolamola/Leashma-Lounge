@@ -1,0 +1,132 @@
+img {
+    border-radius: 8px;
+}
+
+.header {
+    height: 200px;
+    background: rgb(0, 0, 0);
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+.menuItems {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mainBody {
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.textLogo {
+    color: #fbf9fa; 
+    padding-top: 78px;
+    font-size: 25px;
+    /* padding-right: 300px; */
+    padding-bottom: 70px;
+    position: sticky;
+    display: flex;
+}
+
+.textFooter {
+    color: #ffbf9d;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+@media only screen and (max-width: 255px) {
+    .textLogo {
+        padding-top: 25px;
+        font-size: 15px;
+        padding-right: 300px;
+        position: sticky;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .menuItems {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .textFooter {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 255px) {
+    .textLogo {
+        padding-top: 45px;
+        font-size: 15px;
+        /* padding-right: 300px; */
+        position: sticky;
+    }
+
+    .logo {
+        height: 120px;
+        width: 120px;
+    }
+
+    .menuItems {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header {
+        height: 120px;
+    }
+
+    .textFooter {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    .textLogo {
+        padding-top: 55px;
+        font-size: 20px;
+        /* padding-right: 250px; */
+        position: sticky;
+    }
+
+    .logo {
+        height: 100%;
+        width: 150px;
+    }
+
+    .menuItems {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .textFooter {
+        font-size: 15px;
+    }
+}
+
